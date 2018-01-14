@@ -1,0 +1,37 @@
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="470dp"
+        android:layout_height="470dp"
+        tools:context="com.example.aliasghar.locations.MapsActivity"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter your location"
+        android:textSize="20dp"
+        android:id="@+id/editText"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:src="@drawable/search"
+        android:id="@+id/btn_search"
+        android:layout_marginLeft="310dp"
+        android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>
