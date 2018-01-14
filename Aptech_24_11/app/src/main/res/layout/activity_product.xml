@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.aptech_24_11.Product">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="28dp"
+        android:text="Products"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView10"
+        android:layout_alignStart="@+id/textView10"
+        android:layout_below="@+id/textView10"
+        android:layout_marginTop="24dp"
+        android:text="Encouraing user reviews accomplishes two things:  User reviews provide reassurance to your users that others are buying from the site and, hopefully, endorsing the products or services on offer.  They give unique and fresh content for your product page, which is great for SEO. Don’t use reviews from other sites directly on the product page if you can help it. Instead, get your own by emailing your customers after they receive your product and ask for a review. You can even incentivize this with a coupon code so they come back to purchase from you again."
+        android:textSize="18sp" />
+</RelativeLayout>
