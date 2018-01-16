@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.firebase.PhoneAuth"
+    android:padding="5dp">
+
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Phone Number Authentication"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:hint="Phone No."/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:textSize="20dp"/>
+
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:padding="10dp"
+            android:inputType="phone"
+            android:hint="Enter 6 digit code here"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="20dp"
+            android:text="Verify"
+            android:textSize="20dp" />
+
+</RelativeLayout>

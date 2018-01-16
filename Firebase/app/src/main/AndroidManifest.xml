@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Welcome" />
-        <activity android:name=".SignUp"></activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".PhoneAuth"></activity>
     </application>
 
 </manifest>

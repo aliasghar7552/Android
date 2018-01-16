@@ -71,7 +71,6 @@ public class SignUp extends AppCompatActivity {
                                 //updateUI(null);
                             }
 
-                            // ...
                         }
                     });
         }

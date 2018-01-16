@@ -90,4 +90,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void phoneAuth(View view) {
+        Intent intent = new Intent(getBaseContext(), PhoneAuth.class);
+        startActivity(intent);
+
+    }
+
 }
