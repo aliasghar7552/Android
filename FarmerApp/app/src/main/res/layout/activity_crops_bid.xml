@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.farmerapp.CropsBid">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:text="Bidding"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Quantity (KG)"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/unitRequest"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Unit Request"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/unitPrice"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Unit Price"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+
+            <EditText
+                android:id="@+id/totalprice"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Total Price"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                android:maxLength="11"/>
+
+            <EditText
+                android:id="@+id/bidPrice"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Bid Price"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bidBackButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrowbackbutton" />
+
+
+                <Button
+                    android:id="@+id/bidSubmitButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrownextbutton" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

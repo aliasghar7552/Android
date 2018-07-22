@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.farmerapp.PostCrops">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:text="Post Crops for Sale"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp" />
+
+
+            <Spinner
+                android:id="@+id/names"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Select Your Crops"></Spinner>
+
+            <Spinner
+                android:id="@+id/quality"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:hint="Select Crops Quality"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"></Spinner>
+
+            <!--<EditText-->
+                <!--android:id="@+id/cropsId"-->
+                <!--android:layout_width="340dp"-->
+                <!--android:layout_height="55dp"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/form_corner"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:hint="Crops ID"-->
+                <!--android:inputType="number"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="22dp" />-->
+
+            <EditText
+                android:id="@+id/quantity"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Quantity (KG)"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/openDate"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Opening Date"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/closeDate"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Closing Date"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+
+            <EditText
+                android:id="@+id/startPrice"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Starting Price"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                android:maxLength="11"/>
+
+            <EditText
+                android:id="@+id/finalPrice"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Final Price"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/unitPrice"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Per Unit Price"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <!--<EditText-->
+                <!--android:id="@+id/postDate"-->
+                <!--android:layout_width="340dp"-->
+                <!--android:layout_height="55dp"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/form_corner"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:hint="Post Date"-->
+                <!--android:inputType="date"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="22dp" />-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/status"-->
+                <!--android:layout_width="340dp"-->
+                <!--android:layout_height="55dp"-->
+                <!--android:layout_marginLeft="12dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:background="@drawable/form_corner"-->
+                <!--android:gravity="center_horizontal"-->
+                <!--android:hint="Status"-->
+                <!--android:inputType="number"-->
+                <!--android:paddingLeft="20dp"-->
+                <!--android:textColor="@android:color/black"-->
+                <!--android:textSize="22dp" />-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/farmerRegisterFormBackButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrowbackbutton" />
+
+
+                <Button
+                    android:id="@+id/farmerRegisterFormNextButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrownextbutton" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

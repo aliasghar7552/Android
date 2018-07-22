@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.farmerapp.HomebuyerRegistrationForm">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:gravity="center_horizontal"
+                android:text="HomeBuyers Registration Form"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="30dp" />
+
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="FullName"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/address"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Address"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/cnic"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="CNIC"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                android:maxLength="13"/>
+
+            <EditText
+                android:id="@+id/contact"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColor="@android:color/black"
+                android:textSize="22dp"
+                android:maxLength="11"/>
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="340dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/form_corner"
+                android:gravity="center_horizontal"
+                android:hint="Password (Min 8 digits)"
+                android:inputType="textPassword"
+                android:textColor="@android:color/black"
+                android:textSize="22dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginBottom="25dp">
+
+                <Button
+                    android:id="@+id/homebuyerRegisterFormBackButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrowbackbutton" />
+
+
+                <Button
+                    android:id="@+id/homebuyerRegisterFormNextButton"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/arrownextbutton" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

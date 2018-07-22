@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.farmerapp.RegisterAs">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="Login As?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36dp" />
+
+    <Button
+        android:id="@+id/farmer"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView10"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/form_corner"
+        android:text="Farmer"
+        android:textAllCaps="false"
+        android:textColor="@color/RegisterAs"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/wholesaler"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/textView10"
+        android:layout_gravity="center"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/form_corner"
+        android:text="WholeSaler"
+        android:textAllCaps="false"
+        android:textColor="@color/RegisterAs"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/mills"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/form_corner"
+        android:text="Mills"
+        android:textAllCaps="false"
+        android:textColor="@color/RegisterAs"
+        android:textSize="24dp"
+        android:layout_below="@+id/farmer"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"/>
+
+
+    <Button
+        android:id="@+id/homebuyer"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:background="@drawable/form_corner"
+        android:text="HomeBuyer"
+        android:textAllCaps="false"
+        android:textColor="@color/RegisterAs"
+        android:textSize="24dp"
+        android:layout_below="@+id/wholesaler"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="21dp"
+        android:background="@drawable/arrowbackbutton"
+        android:layout_below="@+id/mills"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>

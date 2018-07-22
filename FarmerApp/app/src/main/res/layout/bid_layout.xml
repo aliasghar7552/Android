@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:text="Quantity: "
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:text="Unit Request: "
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/unit_request"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:text="Unit Price: "
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/unit_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:text="Total Price: "
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:text="Bid Price:"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bid_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingRight="8dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="160dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Closing Date:"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/tv3"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="160dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Start Price: "&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/tv4"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="160dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Final Price: "&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/tv5"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="160dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:text="Per Unit Price: "&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textStyle="bold" />&ndash;&gt;-->
+
+        <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/tv6"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:padding="10dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:paddingRight="8dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:textSize="20dp" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<Button-->
+        <!--android:id="@+id/bidButton"-->
+        <!--android:layout_width="170dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/RegisterAs"-->
+        <!--android:text="Bid"-->
+        <!--android:textColor="@android:color/background_light" />-->
+
+        <!--<Button-->
+        <!--android:id="@+id/viewBidButton"-->
+        <!--android:layout_width="170dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/RegisterAs"-->
+        <!--android:text="View Bids"-->
+        <!--android:textColor="@android:color/background_light"-->
+        <!--android:layout_marginLeft="10dp"/>-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
