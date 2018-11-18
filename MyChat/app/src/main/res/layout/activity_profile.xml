@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.mychat.Profile"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/userProfileImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/default_profile"/>
+
+    <TextView
+        android:id="@+id/tv_profileUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userProfileImage"
+        android:layout_marginTop="30dp"
+        android:textSize="22dp"
+        android:textColor="@android:color/background_light"
+        android:text="Profile Username"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tv_profileStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_profileUsername"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light"
+        android:text="Profile Status"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_sendFriendRequest"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_profileStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:textSize="16dp"
+        android:text="Send Friend Request"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/btn_declineFriendRequest"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="Decline Friend Request"
+        android:layout_below="@+id/btn_sendFriendRequest"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.aliasghar.mychat.Settings">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/default_profile"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btn_changeProfileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/camera_image"
+        android:layout_above="@+id/tv_profileUsername"
+        android:layout_alignEnd="@+id/profile_image" />
+
+    <TextView
+        android:id="@+id/tv_profileUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile_image"
+        android:layout_marginTop="30dp"
+        android:text="Username"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/tv_profileStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_profileUsername"
+        android:layout_marginTop="20dp"
+        android:text="Profile Status"
+        android:paddingLeft="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btn_changeStatus"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:textSize="18dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Change Status"
+        android:textColor="@android:color/background_light" />
+
+</RelativeLayout>

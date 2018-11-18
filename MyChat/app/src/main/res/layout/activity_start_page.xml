@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startpage"
+    tools:context="com.example.aliasghar.mychat.StartPage">
+
+
+    <Button
+        android:id="@+id/btn_alreadyHaveAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:background="@android:color/background_light"
+        android:text="Already Have An Account ?"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/btn_needAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_alreadyHaveAccount"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/background_light"
+        android:text="Need An Account ?"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+
+</RelativeLayout>

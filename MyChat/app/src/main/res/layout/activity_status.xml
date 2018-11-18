@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aliasghar.mychat.Status">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/statusPageToolbar" />
+
+    <EditText
+        android:id="@+id/et_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/statusPageToolbar"
+        android:layout_marginTop="50dp"
+        android:hint="Change Status here"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btn_changeStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_status"
+        android:text="Save"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/allUsersProfileImage"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="0.26"
+            android:src="@drawable/default_profile" />
+
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_allUsersUsername"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_allUsersStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_acceptFriendRequest"
+
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@android:color/holo_green_light"
+                    android:text="Accept"
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/btn_cancelFriendRequest"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:text="Cancel"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="16dp" />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

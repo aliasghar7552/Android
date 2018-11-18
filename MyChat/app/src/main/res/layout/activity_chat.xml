@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context="com.example.aliasghar.mychat.Chat">
+
+    <include
+        android:id="@+id/chatTab"
+        layout="@layout/app_bar_layout" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/usersMessageList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chatTab">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_light"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/btn_selectImage"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:src="@drawable/ic_camera" />
+
+        <EditText
+            android:id="@+id/et_userMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Write Message"
+            android:inputType="textMultiLine"
+            android:padding="8.5dp" />
+
+        <ImageButton
+            android:id="@+id/btn_sendMessage"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+
+            android:padding="5dp"
+            android:src="@drawable/ic_msg_send" />
+
+    </LinearLayout>
+
+</RelativeLayout>
